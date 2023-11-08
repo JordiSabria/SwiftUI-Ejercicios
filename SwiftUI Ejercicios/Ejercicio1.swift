@@ -15,7 +15,7 @@ struct Ejercicio1: View {
                 .scaledToFit()
                 .clipShape(RoundedRectangle(cornerRadius: 60))
                 .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 10)
-                .padding(10)
+                .padding(.horizontal, 10)
                 .overlay(alignment: .bottom){
                     Rectangle()
                         .frame(maxHeight: 100)
@@ -29,8 +29,13 @@ struct Ejercicio1: View {
                                         .bold()
                                         .font(.headline)
                                     Spacer()
-                                    Image(systemName: "star.circle")
-                                        .colorInvert()
+                                    Button{
+                                    }label: {
+                                        Image(systemName: "star.circle")
+                                            //.colorInvert()
+                                            .renderingMode(.template)
+                                            .foregroundColor(.white)
+                                    }
                                 }
                                 .padding(.horizontal)
                                 Image(.musicProgressBar!)
@@ -53,6 +58,7 @@ struct Ejercicio1: View {
                             .padding()
                         }
                 }
+            Spacer()
             HStack{
                 Image(systemName: "volume")
                     
@@ -101,9 +107,6 @@ struct Ejercicio1: View {
             }
             .padding(20)
         }
-        .ignoresSafeArea()
-        
-        
     }
 }
 
