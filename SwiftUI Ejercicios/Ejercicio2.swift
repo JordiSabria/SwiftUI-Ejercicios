@@ -35,6 +35,20 @@ struct Ejercicio2: View {
                         .shadow(color: .black.opacity(0.4), radius: 10, x: 0, y: 30)
                         .frame(maxWidth: 300)
                 }
+                /*List{
+                    Text("Hola Mundo")
+                    Text("Hello World")
+                    Text("Hola Mundo")
+                    Text("Hello World")
+                    Text("Hola Mundo")
+                    Text("Hello World")
+                    Text("Hola Mundo")
+                    Text("Hello World")
+                    Text("Hola Mundo")
+                    Text("Hello World")
+                    Text("Hello World")
+                    Text("Hello World")
+                }*/
             }
             
         }

@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_EjerciciosApp: App {
     var body: some Scene {
         WindowGroup {
-            Ejercicio1()
+            Ejercicio2()
         }
     }
 }
