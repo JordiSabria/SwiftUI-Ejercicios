@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AB5725942AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725932AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift */; };
 		AB5725962AF7A1440014BF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725952AF7A1440014BF05 /* ContentView.swift */; };
-		AB5725982AF7A1460014BF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5725972AF7A1460014BF05 /* Assets.xcassets */; };
 		AB57259B2AF7A1460014BF05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB57259A2AF7A1460014BF05 /* Preview Assets.xcassets */; };
 		AB5725A52AF7A1460014BF05 /* SwiftUI_EjerciciosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725A42AF7A1460014BF05 /* SwiftUI_EjerciciosTests.swift */; };
 		AB5725AF2AF7A1460014BF05 /* SwiftUI_EjerciciosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725AE2AF7A1460014BF05 /* SwiftUI_EjerciciosUITests.swift */; };
@@ -21,6 +20,15 @@
 		ABF77B1D2B0CCF6600566A89 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B1C2B0CCF6600566A89 /* Cover.swift */; };
 		ABF77B1F2B0CD0B400566A89 /* SoundBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */; };
 		ABF77B212B0CD0EA00566A89 /* PlayBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B202B0CD0EA00566A89 /* PlayBar.swift */; };
+		ABF77B232B0CE05900566A89 /* wheaderDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B222B0CE05900566A89 /* wheaderDay.swift */; };
+		ABF77B252B0CFDC600566A89 /* wheaderCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B242B0CFDC600566A89 /* wheaderCountry.swift */; };
+		ABF77B272B0D09C900566A89 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF77B262B0D09C900566A89 /* Media.xcassets */; };
+		ABF77B292B0D0C5200566A89 /* Ejercicio3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B282B0D0C5200566A89 /* Ejercicio3.swift */; };
+		ABF77B2B2B0E4E7200566A89 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B2A2B0E4E7200566A89 /* TaskCell.swift */; };
+		ABF77B2D2B0E562400566A89 /* TaskTapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B2C2B0E562400566A89 /* TaskTapBar.swift */; };
+		ABF77B2F2B0E586100566A89 /* TaskButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B2E2B0E586100566A89 /* TaskButtonsBar.swift */; };
+		ABF77B312B0E58C500566A89 /* TaskBigButtonsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B302B0E58C500566A89 /* TaskBigButtonsBar.swift */; };
+		ABF77B332B0E6B1F00566A89 /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B322B0E6B1F00566A89 /* ContentVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,6 @@
 		AB5725902AF7A1440014BF05 /* SwiftUI Ejercicios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Ejercicios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5725932AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_EjerciciosApp.swift; sourceTree = "<group>"; };
 		AB5725952AF7A1440014BF05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AB5725972AF7A1460014BF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB57259A2AF7A1460014BF05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB5725A02AF7A1460014BF05 /* SwiftUI EjerciciosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI EjerciciosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5725A42AF7A1460014BF05 /* SwiftUI_EjerciciosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_EjerciciosTests.swift; sourceTree = "<group>"; };
@@ -58,6 +65,15 @@
 		ABF77B1C2B0CCF6600566A89 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBar.swift; sourceTree = "<group>"; };
 		ABF77B202B0CD0EA00566A89 /* PlayBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBar.swift; sourceTree = "<group>"; };
+		ABF77B222B0CE05900566A89 /* wheaderDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheaderDay.swift; sourceTree = "<group>"; };
+		ABF77B242B0CFDC600566A89 /* wheaderCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheaderCountry.swift; sourceTree = "<group>"; };
+		ABF77B262B0D09C900566A89 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		ABF77B282B0D0C5200566A89 /* Ejercicio3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio3.swift; sourceTree = "<group>"; };
+		ABF77B2A2B0E4E7200566A89 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		ABF77B2C2B0E562400566A89 /* TaskTapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTapBar.swift; sourceTree = "<group>"; };
+		ABF77B2E2B0E586100566A89 /* TaskButtonsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskButtonsBar.swift; sourceTree = "<group>"; };
+		ABF77B302B0E58C500566A89 /* TaskBigButtonsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBigButtonsBar.swift; sourceTree = "<group>"; };
+		ABF77B322B0E6B1F00566A89 /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +127,10 @@
 				AB5725932AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift */,
 				AB5725BF2AF7A3F70014BF05 /* Ejercicio1.swift */,
 				AB5725C62AF93A600014BF05 /* Ejercicio2.swift */,
+				ABF77B282B0D0C5200566A89 /* Ejercicio3.swift */,
 				AB5725952AF7A1440014BF05 /* ContentView.swift */,
 				AB5725C12AF8FFC90014BF05 /* Helpers */,
-				AB5725972AF7A1460014BF05 /* Assets.xcassets */,
+				ABF77B262B0D09C900566A89 /* Media.xcassets */,
 				AB5725992AF7A1460014BF05 /* Preview Content */,
 			);
 			path = "SwiftUI Ejercicios";
@@ -152,6 +169,13 @@
 				ABF77B1C2B0CCF6600566A89 /* Cover.swift */,
 				ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */,
 				ABF77B202B0CD0EA00566A89 /* PlayBar.swift */,
+				ABF77B222B0CE05900566A89 /* wheaderDay.swift */,
+				ABF77B242B0CFDC600566A89 /* wheaderCountry.swift */,
+				ABF77B2A2B0E4E7200566A89 /* TaskCell.swift */,
+				ABF77B2C2B0E562400566A89 /* TaskTapBar.swift */,
+				ABF77B2E2B0E586100566A89 /* TaskButtonsBar.swift */,
+				ABF77B302B0E58C500566A89 /* TaskBigButtonsBar.swift */,
+				ABF77B322B0E6B1F00566A89 /* ContentVM.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -260,8 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF77B272B0D09C900566A89 /* Media.xcassets in Resources */,
 				AB57259B2AF7A1460014BF05 /* Preview Assets.xcassets in Resources */,
-				AB5725982AF7A1460014BF05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +313,20 @@
 				AB5725962AF7A1440014BF05 /* ContentView.swift in Sources */,
 				AB5725C52AF900580014BF05 /* Styles.swift in Sources */,
 				AB5725C72AF93A600014BF05 /* Ejercicio2.swift in Sources */,
+				ABF77B232B0CE05900566A89 /* wheaderDay.swift in Sources */,
 				AB5725942AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift in Sources */,
 				ABF77B1D2B0CCF6600566A89 /* Cover.swift in Sources */,
+				ABF77B2F2B0E586100566A89 /* TaskButtonsBar.swift in Sources */,
 				AB5725C02AF7A3F70014BF05 /* Ejercicio1.swift in Sources */,
+				ABF77B252B0CFDC600566A89 /* wheaderCountry.swift in Sources */,
+				ABF77B2D2B0E562400566A89 /* TaskTapBar.swift in Sources */,
 				AB5725C32AF8FFFC0014BF05 /* Extensions.swift in Sources */,
+				ABF77B332B0E6B1F00566A89 /* ContentVM.swift in Sources */,
+				ABF77B312B0E58C500566A89 /* TaskBigButtonsBar.swift in Sources */,
 				ABF77B1F2B0CD0B400566A89 /* SoundBar.swift in Sources */,
 				ABF77B212B0CD0EA00566A89 /* PlayBar.swift in Sources */,
+				ABF77B2B2B0E4E7200566A89 /* TaskCell.swift in Sources */,
+				ABF77B292B0D0C5200566A89 /* Ejercicio3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

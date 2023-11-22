@@ -8,14 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var conVM = ContentVM()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
+        NavigationStack {
+            VStack {
+                Image(.jAacademy!)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: 200, maxHeight: 200)
+                Button(){
+                    conVM.ejercicio1.toggle()
+                } label: {
+                    Text("Ejercicio1")
+                }
+                .navigationDestination(isPresented: $conVM.ejercicio1) {
+                    Ejercicio1()
+                }
+                .shadow(color: .primary.opacity(0.3),
+                        radius: 10, x: 5, y: 5)
+                Button(){
+                    conVM.ejercicio2.toggle()
+                } label: {
+                    Text("Ejercicio2")
+                }
+                .navigationDestination(isPresented: $conVM.ejercicio2) {
+                    Ejercicio2()
+                }
+                .shadow(color: .primary.opacity(0.3),
+                        radius: 10, x: 5, y: 5)
+                Button(){
+                    conVM.ejercicio3.toggle()
+                } label: {
+                    Text("Ejercicio3")
+                }
+                .navigationDestination(isPresented: $conVM.ejercicio3) {
+                    TaskTapBar()
+                }
+                .shadow(color: .primary.opacity(0.3),
+                        radius: 10, x: 5, y: 5)
+
+            }
+            .buttonStyle(.bordered)
         .padding()
+        }
     }
 }
 
