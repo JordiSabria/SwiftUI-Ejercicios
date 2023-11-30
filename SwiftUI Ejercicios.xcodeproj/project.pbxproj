@@ -17,6 +17,8 @@
 		AB5725C32AF8FFFC0014BF05 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725C22AF8FFFC0014BF05 /* Extensions.swift */; };
 		AB5725C52AF900580014BF05 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725C42AF900580014BF05 /* Styles.swift */; };
 		AB5725C72AF93A600014BF05 /* Ejercicio2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5725C62AF93A600014BF05 /* Ejercicio2.swift */; };
+		AB57AD742B18CA0A00C45A81 /* Ejercicio4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB57AD732B18CA0A00C45A81 /* Ejercicio4.swift */; };
+		AB57AD762B18CF1D00C45A81 /* DiseñoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB57AD752B18CF1D00C45A81 /* DiseñoButtonStyle.swift */; };
 		ABF77B1D2B0CCF6600566A89 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B1C2B0CCF6600566A89 /* Cover.swift */; };
 		ABF77B1F2B0CD0B400566A89 /* SoundBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */; };
 		ABF77B212B0CD0EA00566A89 /* PlayBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77B202B0CD0EA00566A89 /* PlayBar.swift */; };
@@ -62,6 +64,8 @@
 		AB5725C22AF8FFFC0014BF05 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AB5725C42AF900580014BF05 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		AB5725C62AF93A600014BF05 /* Ejercicio2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2.swift; sourceTree = "<group>"; };
+		AB57AD732B18CA0A00C45A81 /* Ejercicio4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio4.swift; sourceTree = "<group>"; };
+		AB57AD752B18CF1D00C45A81 /* DiseñoButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiseñoButtonStyle.swift"; sourceTree = "<group>"; };
 		ABF77B1C2B0CCF6600566A89 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBar.swift; sourceTree = "<group>"; };
 		ABF77B202B0CD0EA00566A89 /* PlayBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBar.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				AB5725BF2AF7A3F70014BF05 /* Ejercicio1.swift */,
 				AB5725C62AF93A600014BF05 /* Ejercicio2.swift */,
 				ABF77B282B0D0C5200566A89 /* Ejercicio3.swift */,
+				AB57AD732B18CA0A00C45A81 /* Ejercicio4.swift */,
 				AB5725952AF7A1440014BF05 /* ContentView.swift */,
 				AB5725C12AF8FFC90014BF05 /* Helpers */,
 				ABF77B262B0D09C900566A89 /* Media.xcassets */,
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				AB5725C22AF8FFFC0014BF05 /* Extensions.swift */,
+				AB57AD752B18CF1D00C45A81 /* DiseñoButtonStyle.swift */,
 				AB5725C42AF900580014BF05 /* Styles.swift */,
 				ABF77B1C2B0CCF6600566A89 /* Cover.swift */,
 				ABF77B1E2B0CD0B400566A89 /* SoundBar.swift */,
@@ -316,6 +322,7 @@
 				ABF77B232B0CE05900566A89 /* wheaderDay.swift in Sources */,
 				AB5725942AF7A1440014BF05 /* SwiftUI_EjerciciosApp.swift in Sources */,
 				ABF77B1D2B0CCF6600566A89 /* Cover.swift in Sources */,
+				AB57AD762B18CF1D00C45A81 /* DiseñoButtonStyle.swift in Sources */,
 				ABF77B2F2B0E586100566A89 /* TaskButtonsBar.swift in Sources */,
 				AB5725C02AF7A3F70014BF05 /* Ejercicio1.swift in Sources */,
 				ABF77B252B0CFDC600566A89 /* wheaderCountry.swift in Sources */,
@@ -324,6 +331,7 @@
 				ABF77B332B0E6B1F00566A89 /* ContentVM.swift in Sources */,
 				ABF77B312B0E58C500566A89 /* TaskBigButtonsBar.swift in Sources */,
 				ABF77B1F2B0CD0B400566A89 /* SoundBar.swift in Sources */,
+				AB57AD742B18CA0A00C45A81 /* Ejercicio4.swift in Sources */,
 				ABF77B212B0CD0EA00566A89 /* PlayBar.swift in Sources */,
 				ABF77B2B2B0E4E7200566A89 /* TaskCell.swift in Sources */,
 				ABF77B292B0D0C5200566A89 /* Ejercicio3.swift in Sources */,

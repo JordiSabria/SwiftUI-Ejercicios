@@ -12,6 +12,7 @@ final class ContentVM: ObservableObject{
     @Published var ejercicio1 = false
     @Published var ejercicio2 = false
     @Published var ejercicio3 = false
+    @Published var ejercicio4 = false
     
     
 }

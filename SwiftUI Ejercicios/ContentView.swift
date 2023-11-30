@@ -17,40 +17,44 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 200, maxHeight: 200)
+                    .padding(10)
                 Button(){
                     conVM.ejercicio1.toggle()
                 } label: {
-                    Text("Ejercicio1")
+                    Text("Diseño 1")
                 }
                 .navigationDestination(isPresented: $conVM.ejercicio1) {
                     Ejercicio1()
                 }
-                .shadow(color: .primary.opacity(0.3),
-                        radius: 10, x: 5, y: 5)
+                .diseñoButtonStyle
                 Button(){
                     conVM.ejercicio2.toggle()
                 } label: {
-                    Text("Ejercicio2")
+                    Text("Diseño 2")
                 }
                 .navigationDestination(isPresented: $conVM.ejercicio2) {
                     Ejercicio2()
                 }
-                .shadow(color: .primary.opacity(0.3),
-                        radius: 10, x: 5, y: 5)
+                .diseñoButtonStyle
                 Button(){
                     conVM.ejercicio3.toggle()
                 } label: {
-                    Text("Ejercicio3")
+                    Text("Diseño 3")
                 }
                 .navigationDestination(isPresented: $conVM.ejercicio3) {
                     TaskTapBar()
                 }
-                .shadow(color: .primary.opacity(0.3),
-                        radius: 10, x: 5, y: 5)
-
+                .diseñoButtonStyle
+                Button(){
+                    conVM.ejercicio4.toggle()
+                } label: {
+                    Text("Diseño 4")
+                }
+                .navigationDestination(isPresented: $conVM.ejercicio4) {
+                    Ejercicio4()
+                }
+                .diseñoButtonStyle
             }
-            .buttonStyle(.bordered)
-        .padding()
         }
     }
 }

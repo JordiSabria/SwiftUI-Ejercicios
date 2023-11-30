@@ -20,5 +20,7 @@ struct Ejercicio1: View {
 }
 
 #Preview {
-    Ejercicio1()
+    NavigationStack{
+        Ejercicio1()
+    }
 }

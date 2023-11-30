@@ -70,5 +70,7 @@ struct Ejercicio2: View {
 }
 
 #Preview {
-    Ejercicio2()
+    NavigationStack{
+        Ejercicio2()
+    }
 }
