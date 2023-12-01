@@ -38,8 +38,47 @@ struct Ejercicio4: View {
                         .foregroundStyle(.white)
                         .frame(height: 400)
                         .padding(.horizontal, 20)
-                        .overlay(){
-                            Text("prova")
+                        .overlay{
+                            VStack(alignment: .leading){
+                                Label("Live in New York ", systemImage: "house.circle.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Drive License: B", systemImage: "car.circle.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("State: Married", systemImage: "ring.circle.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Software Engineer - HARDVARD", systemImage: "graduationcap.circle.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Expert on Artificial Inteligent", systemImage: "fireworks")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Work at OpenAI since 2021", systemImage: "list.bullet.clipboard.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Work at Tesla since 2019", systemImage: "list.bullet.clipboard.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                Label("Animals: 2 cats", systemImage: "cat.circle.fill")
+                                    .foregroundStyle(.blue)
+                                    .padding(5)
+                                HStack(alignment: .center){
+                                    Spacer()
+                                    Button {
+                                        
+                                    }label: {
+                                        Image(systemName: "paperplane")
+                                            .resizable()
+                                            .scaledToFit()
+                                    }
+                                    .buttonStyle(.bordered)
+                                    
+                                }
+                                                                
+                            }
+                            .frame(width: 300, height: 350, alignment: .topLeading)
                         }
                 }
             }
