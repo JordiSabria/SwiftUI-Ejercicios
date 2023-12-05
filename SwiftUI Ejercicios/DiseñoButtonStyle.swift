@@ -15,8 +15,6 @@ struct DiseñoButtonStyle: ViewModifier {
                 radius: 10, x: 5, y: 5)
             .buttonStyle(.bordered)
     }
-    
-    
 }
 
 extension View {

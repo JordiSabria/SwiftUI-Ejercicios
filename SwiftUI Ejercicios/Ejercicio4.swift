@@ -22,17 +22,11 @@ struct Ejercicio4: View {
                         .frame(height: 500)
                         .opacity(0)
                     Text("Alejandra Perez")
-                        .bold()
+                        .textStyle
                         .font(.largeTitle)
-                        .foregroundStyle(.white)
-                        .frame(width: 400, alignment: .leading)
-                        .padding(.leading, 110)
                     Text("Software Engineer")
-                        .bold()
+                        .textStyle
                         .font(.headline)
-                        .foregroundStyle(.white)
-                        .frame(width: 400, alignment: .leading)
-                        .padding(.leading, 110)
                     Rectangle()
                         .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/))
                         .foregroundStyle(.white)
@@ -41,42 +35,30 @@ struct Ejercicio4: View {
                         .overlay{
                             VStack(alignment: .leading){
                                 Label("Live in New York ", systemImage: "house.circle.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Drive License: B", systemImage: "car.circle.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("State: Married", systemImage: "ring.circle.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Software Engineer - HARDVARD", systemImage: "graduationcap.circle.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Expert on Artificial Inteligent", systemImage: "fireworks")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Work at OpenAI since 2021", systemImage: "list.bullet.clipboard.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Work at Tesla since 2019", systemImage: "list.bullet.clipboard.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 Label("Animals: 2 cats", systemImage: "cat.circle.fill")
-                                    .foregroundStyle(.blue)
-                                    .padding(5)
+                                    .labelStle
                                 HStack(alignment: .center){
                                     Spacer()
-                                    Button {
-                                        
-                                    }label: {
+                                    Button { }label: {
                                         Image(systemName: "paperplane")
                                             .resizable()
                                             .scaledToFit()
                                     }
                                     .buttonStyle(.bordered)
-                                    
                                 }
-                                                                
                             }
                             .frame(width: 300, height: 350, alignment: .topLeading)
                         }
